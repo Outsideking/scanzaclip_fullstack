@@ -1,1 +1,9 @@
 
+{
+    "owner": "SUPERSECRET_RUFIO_KEY",
+    "allowed_modules": ["vision"],
+    "employees": [
+        {"name": "Alice", "role": "admin"},
+        {"name": "Bob", "role": "user"}
+    ]
+}

@@ -13,4 +13,4 @@ def auto_deploy(instance_path: str, master_api_key: str):
     subprocess.run(["pip", "install", "-r", "requirements.txt"], cwd=instance_path)
     subprocess.Popen(["uvicorn", "run_api:app", "--host", "0.0.0.0", "--port", "8000"], cwd=instance_path)
     
-    print(f"Deployment complete: {instance_path}")
+    print(f"Public deployment complete: {instance_path}")

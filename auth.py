@@ -5,4 +5,4 @@ def load_master_keys():
         return json.load(f).get("super_admin_keys", [])
 
 def verify_master_key(key: str) -> bool:
-    return key in load_master_keys()# Super-Admin permission
+    return key in load_master_keys()

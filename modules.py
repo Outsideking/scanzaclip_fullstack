@@ -1,7 +1,8 @@
 # โมดูล Scanzaclip
 SCANZACLIP_MODULES = {
     "vision": {"version": "1.0", "description": "Vision AI module"},
-    "ai_core": {"version": "2.1", "description": "Core AI processing"}
+    "ai_core": {"version": "2.1", "description": "Core AI processing"},
+    "speech": {"version": "1.0", "description": "Speech recognition module"}
 }
 
 def get_module(name):

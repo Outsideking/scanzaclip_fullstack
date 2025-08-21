@@ -1,1 +1,3 @@
-
+{
+    "super_admin_keys": ["SUPERSECRET_RUFIO_KEY", "GENAI_KEY"]
+}

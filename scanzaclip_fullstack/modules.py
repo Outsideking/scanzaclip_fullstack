@@ -1,0 +1,1 @@
+# โมดูล Scanzaclip
